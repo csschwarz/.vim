@@ -3,7 +3,8 @@
 ## Installation
 
 ```bash
-sh ./install.sh
+git clone https://github.com/csschwarz/.vim ~/.vim
+sh ~/.vim/install.sh
 ```
 
 ## Update all
