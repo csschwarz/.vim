@@ -1,5 +1,6 @@
 winpos 720 23
-set guifont=Monaco:h14
+color ir_black
+set guifont=Monaco:h12
 set guioptions-=T
 set guioptions-=L
 set guioptions-=r
