@@ -82,8 +82,8 @@ set vb " set the visual bell
 set backspace=indent,eol,start " Allow backspacing over indent, eol, and the start of an insert
 set wildmenu
 set wildignore=*.swp,*.bak,*.pyc,*.class
-set list
-set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
+"set list
+"set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
 set showbreak=↪
 
 set splitbelow
