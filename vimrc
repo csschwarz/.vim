@@ -35,13 +35,13 @@ set statusline +=%2*/%L%*               "total lines
 set statusline +=%1*%4c\ %*             "column number
 set statusline +=%2*0x%04B\ %*          "character under cursor
 
-hi User1 guifg=#eea040 guibg=#222222
-hi User2 guifg=#a18c73 guibg=#222222
-hi User3 guifg=#9dbddd guibg=#222222
-hi User4 guifg=#666666 guibg=#222222
-hi User5 guifg=#99cc33 guibg=#222222
-hi User6 guifg=#ff4040 guibg=#222222
-hi User7 guifg=#cccccc guibg=#222222
+hi User1 ctermbg=white ctermfg=black guifg=#eea040 guibg=#222222
+hi User2 ctermbg=white ctermfg=black guifg=#a18c73 guibg=#222222
+hi User3 ctermbg=white ctermfg=black guifg=#9dbddd guibg=#222222
+hi User4 ctermbg=white ctermfg=black guifg=#666666 guibg=#222222
+hi User5 ctermbg=white ctermfg=black guifg=#99cc33 guibg=#222222
+hi User6 ctermbg=white ctermfg=black guifg=#ff4040 guibg=#222222
+hi User7 ctermbg=white ctermfg=black guifg=#cccccc guibg=#222222
 "===== END STATUS BAR =====
 
 " ======= GENERAL SETTINGS =======

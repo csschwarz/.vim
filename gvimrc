@@ -12,3 +12,6 @@ set browsedir=buffer
 set lazyredraw " to speed up
 set number
 set foldcolumn=0
+
+set list
+set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮ 
