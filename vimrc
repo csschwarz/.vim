@@ -73,13 +73,14 @@ set ruler " show current cursor pos
 set scrolloff=3
 set sidescrolloff=2
 
-set nowrap
-set linebreak " wrap lines at convenient places
+"set nowrap
+"set linebreak " wrap lines at convenient places
+set wrap
 
 set history=1000 "store lots of :cmdline history
 set undolevels=1000 "as many as undos possible
 
-set virtualedit=all
+"set virtualedit=all
 set vb " set the visual bell
 set backspace=indent,eol,start " Allow backspacing over indent, eol, and the start of an insert
 set wildmenu
@@ -110,4 +111,4 @@ set foldlevel=1
 let g:netrw_dirhistmax=0 " Disables new read write history file creation (.newrwhist file)
 
 "NERDTree
-nmap <Leader>nt :NERDTree<CR>
+nmap <Leader>nt :NERDTreeToggle<CR>
