@@ -50,9 +50,11 @@ set foldcolumn=1 " this is just the console
 
 set autochdir
 au BufEnter * set expandtab ts=3 sw=3 sts=3
+au BufEnter {*.rb} set ts=2 sw=2 sts=2
 au BufNewFile * set fenc=utf-8 encoding=utf-8
 au BufRead,BufNewFile {Gemfile,Rakefile,Capfile,*.rake,config.ru} set ft=ruby
 au BufRead,BufNewFile {*.md,*.mkd,*.markdown} set ft=markdown
+au BufRead,BufNewFile {*.rb} set ft=ruby ts=2 sw=2 sts=2
 "au! BufNewFile * silent! 0r ~/.vim/skel/template.%:e
 
 set hlsearch " for highlight
@@ -106,3 +108,6 @@ set foldopen=block,insert,jump,mark,percent,quickfix,search,tag,undo " These com
 set foldlevel=1
 
 let g:netrw_dirhistmax=0 " Disables new read write history file creation (.newrwhist file)
+
+"NERDTree
+nmap <Leader>nt :NERDTree<CR>
