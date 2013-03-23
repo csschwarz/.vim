@@ -111,4 +111,5 @@ set foldlevel=1
 let g:netrw_dirhistmax=0 " Disables new read write history file creation (.newrwhist file)
 
 "NERDTree
-nmap <Leader>nt :NERDTreeToggle<CR>
+nmap <silent> <Leader>nt :NERDTreeToggle<CR>
+nmap <silent> <Leader>ff :FufCoverageFile<CR><C-e>
