@@ -112,5 +112,5 @@ let g:netrw_dirhistmax=0 " Disables new read write history file creation (.newrw
 "NERDTree
 nmap <silent> <Leader>nt :NERDTreeToggle<CR>
 
-"FuzzyFinder
-nmap <silent> <Leader>ff :FufCoverageFile<CR><C-e>
+"Ctrl-P
+set runtimepath^=~/.vim/bundle/ctrlp/autoload/ctrlp.vim
