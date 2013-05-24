@@ -45,6 +45,7 @@ hi User7 ctermbg=white ctermfg=black guifg=#cccccc guibg=#222222
 "===== END STATUS BAR =====
 
 " ======= GENERAL SETTINGS =======
+colorscheme slate
 
 set foldcolumn=1 " this is just the console
 
@@ -111,6 +112,11 @@ let g:netrw_dirhistmax=0 " Disables new read write history file creation (.newrw
 
 "NERDTree
 nmap <silent> <Leader>nt :NERDTreeToggle<CR>
+nmap <silent> <Leader>nf :NERDTreeFind<CR>
 
 "Ctrl-P
 set runtimepath^=~/.vim/bundle/ctrlp/autoload/ctrlp.vim
+let g:ctrlp_map = '<Leader>ff'
+
+"Tab shortcut
+nmap <silent> <Leader><CR> :tabnew<CR>
